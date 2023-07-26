@@ -6,7 +6,7 @@ tar -xf traefik_v2.10.4_linux_amd64.tar.gz
 
 chmod +x traefik
 
-sudo mv traefik /usr/local/bin/traefik
+sudo mv traefik /usr/local/bin
 
 sudo setcap 'cap_net_bind_service=+ep' /usr/local/bin/traefik
 
